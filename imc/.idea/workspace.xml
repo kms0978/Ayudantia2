@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16719862-ec64-4d38-9eca-efb2a6075f8d" name="Changes" comment="Tercer avance: Se arreglan unos cuantos datos en los métodos para agregar los datos y sus validaciones">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="16719862-ec64-4d38-9eca-efb2a6075f8d" name="Changes" comment="Avance de modificaciones de los primeros métodos">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IMC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/IMC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695101695943</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Avance de modificaciones de los primeros métodos">
+      <created>1695162891012</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695162891012</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +136,7 @@
     <MESSAGE value="Primer avance de los métodos de ingreso de los datos" />
     <MESSAGE value="Segundo avance del calculo del IMC" />
     <MESSAGE value="Tercer avance: Se arreglan unos cuantos datos en los métodos para agregar los datos y sus validaciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tercer avance: Se arreglan unos cuantos datos en los métodos para agregar los datos y sus validaciones" />
+    <MESSAGE value="Avance de modificaciones de los primeros métodos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avance de modificaciones de los primeros métodos" />
   </component>
 </project>

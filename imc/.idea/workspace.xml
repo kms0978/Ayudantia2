@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16719862-ec64-4d38-9eca-efb2a6075f8d" name="Changes" comment="Primer avance de los métodos de ingreso de los datos">
+    <list default="true" id="16719862-ec64-4d38-9eca-efb2a6075f8d" name="Changes" comment="Segundo avance del calculo del IMC">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IMC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/IMC.java" afterDir="false" />
     </list>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695090491421</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Segundo avance del calculo del IMC">
+      <created>1695096614958</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695096614958</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 1 (ensayo)" />
     <MESSAGE value="Primer avance de los métodos de ingreso de los datos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer avance de los métodos de ingreso de los datos" />
+    <MESSAGE value="Segundo avance del calculo del IMC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segundo avance del calculo del IMC" />
   </component>
 </project>

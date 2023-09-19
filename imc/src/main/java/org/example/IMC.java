@@ -15,33 +15,34 @@ public class IMC {
     }
     public static void main(String[] args) {
         System.out.println("Inicializando");
-        IMC kid_1 = new IMC(" ",1.0,1.0 );
-        kid_1.agregarNombre();
-        System.out.println("Nombre: " + kid_1.getNombre());
+        IMC kid1 = new IMC(" ",1.0,1.0 );
+        IMC kid2 = new IMC("",1.0,1.0);
+        IMC kid3 = new IMC("",1.0,1.0);
 
-        //System.out.println("Peso: " + kid_1.getPeso());
-        //System.out.println("Estatura: " + kid_1.getEstatura());
+
+
+        System.out.println("Nombre: " + kid1.getNombre());
+        System.out.println("Peso: " + kid1.getPeso());
+        System.out.println("Estatura: " + kid1.getEstatura());
+        System.out.println("El infante pertenece a la categoria: " + kid1.categoria());
     }
 
     // Métodos --------------------------------------------------------------------
+
     public void agregarNombre() {
         do {
             System.out.print("Nombre: ");
             nombre = ingresar();
             mayusIngresado(nombre);
-        } while (!validarNombre(nombre));
+        }while(!validarNombre(nombre));
     }
     public void agregarPeso() {
-        do {
-            System.out.print("Peso: ");
-            peso = ingresarNum();
-        } while (!validarPeso(peso));
+        System.out.print("Peso: ");
+        peso = ingresarNum();
     }
-    public void agregarEstatura{
-        do {
-            System.out.print("Estatura: ");
-            estatura = ingresarNum();
-        }while(!validarEstatura(estatura));
+    public void agregarEstatura(){
+        System.out.print("Estatura: ");
+        estatura = ingresarNum();
     }
 
     public String mayusIngresado(String word){
@@ -49,14 +50,14 @@ public class IMC {
         return word;
     }
 
-    public double calcularIMC(){
-        double imc = peso/Math.pow(estatura,2);
+    public double calcularIMC(double a,double b){
+        double imc = a/Math.pow(b,2);
         double imcAprox = (double) ((int) (imc * 100.0)) / 100.0;
         return imcAprox;
     }
 
     public String categoria() {
-        double imcCalculado = calcularIMC();
+        double imcCalculado = calcularIMC(peso,estatura);
         String nivel = "";
         if (imcCalculado < 18.5) {
             nivel = "Bajo Peso";
@@ -84,16 +85,10 @@ public class IMC {
         return !nombre.isEmpty();
     }
     public double validarPeso(double valor){
-        try{
-
-        }catch (){
-
-        }
         return valor;
     }
     public double validarEstatura(double valor){
-
-        return estatura;
+        return valor;
     }
 
     // Métodos para ingresar Datos --------------------------------------------

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16719862-ec64-4d38-9eca-efb2a6075f8d" name="Changes" comment="Segundo avance del calculo del IMC">
+    <list default="true" id="16719862-ec64-4d38-9eca-efb2a6075f8d" name="Changes" comment="Tercer avance: Se arreglan unos cuantos datos en los métodos para agregar los datos y sus validaciones">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IMC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/IMC.java" afterDir="false" />
     </list>
@@ -37,16 +37,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Alumno/IdeaProjects",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alumno/IdeaProjects&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="IMC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.IMC" />
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695096614958</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tercer avance: Se arreglan unos cuantos datos en los métodos para agregar los datos y sus validaciones">
+      <created>1695101695943</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695101695943</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +129,7 @@
     <MESSAGE value="commit 1 (ensayo)" />
     <MESSAGE value="Primer avance de los métodos de ingreso de los datos" />
     <MESSAGE value="Segundo avance del calculo del IMC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segundo avance del calculo del IMC" />
+    <MESSAGE value="Tercer avance: Se arreglan unos cuantos datos en los métodos para agregar los datos y sus validaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tercer avance: Se arreglan unos cuantos datos en los métodos para agregar los datos y sus validaciones" />
   </component>
 </project>
